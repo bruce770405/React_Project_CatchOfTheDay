@@ -18,9 +18,9 @@ import firebase from "firebase";
 // };
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyA-osWQdNdsGIN-HWqWYuiDHZMf7jENr4c",
-  authDomain: "webdb-9ace1.firebaseapp.com",
-  databaseURL: "https://webdb-9ace1.firebaseio.com"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: ""
 });
 
 const base = Rebase.createClass(firebaseApp.database());
